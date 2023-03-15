@@ -1,0 +1,22 @@
+.p{
+  width:800px;
+  
+}
+#check
+{
+  font-size: 20px
+  ;
+}
+#span1
+{
+  color: red;
+}
+#button:hover
+{
+  background-image:none !important;
+background-color:black !important;
+}
+#regform
+{
+  
+}

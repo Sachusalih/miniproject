@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "organproject-7a367": {
+      "hosting": {
+        "organ": [
+          "organproject-7a367"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "organproject-7a367"
+  }
+}

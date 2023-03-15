@@ -1,0 +1,29 @@
+<div>
+    <img src="../../../assets/images/hmbg1.jpg" alt="">
+    <div class="position-absolute  top-50 start-0 translate-middle-y float-none ">
+        <h2>DONATE LIFE - An Initiative For Organ Donation</h2>
+        <h4>'Beyond Life, There Is Hope For A Better Tomorrow'</h4>
+        <p>
+            The cycle of life and death is a very beautiful, undeniable phenomenon that is in the hands of a power that is beyond human.<br>
+            But saving lives and giving the gift of breath is in our power and is completely human. How do we do that? By donating our organs.<br>
+            Organ donation is the need of the day and a hope for the brighter future of those who are not as blessed as most of us.<br> 
+            There are those who need an organ to survive and then there are those who have transcended into a different world and whose<br> 
+            organs could infuse life in many who are still in this world.  Our non-profit organisation, Donate Life, serves as the bridge between the two.<br>
+        </p>
+    </div>
+</div>
+
+<div class="container ">
+  <div class="row">
+  <div class="col mb-5 p-5" *ngFor="let i of home">
+  <div class="card" style="width: 18rem;">
+      <img src="../../../assets/images/{{i.image}}" class="card-img-top" alt="..." height="200" width="=200">
+      <div class="card-body">
+        <h5 class="i.name">{{i.name}}</h5>
+        <p class="card-text">{{i.desc}}</p>
+        <a (click)="gotohere(i.id)"class="btn btn-primary ">See More</a>
+      </div>
+    </div>
+  
+</div>
+ 
